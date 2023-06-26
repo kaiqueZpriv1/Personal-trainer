@@ -1,6 +1,5 @@
 const burgerElement = document.querySelector(".burger")
 const closeElement = document.querySelector(".close")
-
 const menuElement = document.querySelector("#menu-mobile")
 burgerElement.addEventListener('click', function(event) {
     menuElement.style.width = "65%";
@@ -18,7 +17,6 @@ burgerElement.addEventListener('click', function(event) {
         burgerElement.style.display = "none"
     }
 })
-
 ClickLink = () => {
     burgerElement.style.display = "block"
     closeElement.style.display = "none"
